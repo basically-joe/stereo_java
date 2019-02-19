@@ -5,7 +5,7 @@ public abstract class Component {
 
 	public Component(){
 		this.currentlyPlaying = currentlyPlaying;
-		this.powerOnOff = powerOnOff;
+		this.powerOnOff = false;
 	}
 
 	public String getCurrentlyPlaying() {

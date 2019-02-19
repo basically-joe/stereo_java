@@ -24,4 +24,20 @@ public class RadioTest {
 		assertEquals("Hurt", radio.getCurrentlyPlaying());
 	}
 
+	@Test
+	public void canGetPowerStartsOff(){
+		assertEquals(false, radio.isPowerOnOff());
+	}
+
+	@Test
+	public void canTurnPowerOn(){
+		radio.setPowerOnOff(true);
+		assertEquals(true, radio.isPowerOnOff());
+	}
+	@Test
+	public void canTurnPowerOff(){
+		radio.setPowerOnOff(false);
+		assertEquals(false, radio.isPowerOnOff());
+	}
+
 }
