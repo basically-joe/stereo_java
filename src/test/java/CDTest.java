@@ -34,12 +34,12 @@ public class CDTest {
 
 	@Test
 	public void canTurnPowerOn(){
-		cd.setPowerOnOff(true);
+		cd.power(true);
 		assertEquals(true, cd.isPowerOnOff());
 	}
 	@Test
 	public void canTurnPowerOff(){
-		cd.setPowerOnOff(false);
+		cd.power(false);
 		assertEquals(false, cd.isPowerOnOff());
 	}
 

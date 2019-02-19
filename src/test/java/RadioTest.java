@@ -31,12 +31,12 @@ public class RadioTest {
 
 	@Test
 	public void canTurnPowerOn(){
-		radio.setPowerOnOff(true);
+		radio.power(true);
 		assertEquals(true, radio.isPowerOnOff());
 	}
 	@Test
 	public void canTurnPowerOff(){
-		radio.setPowerOnOff(false);
+		radio.power(false);
 		assertEquals(false, radio.isPowerOnOff());
 	}
 

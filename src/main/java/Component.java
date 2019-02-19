@@ -20,7 +20,4 @@ public abstract class Component {
 		return powerOnOff;
 	}
 
-	public void setPowerOnOff(boolean powerOnOff) {
-		this.powerOnOff = powerOnOff;
-	}
 }
