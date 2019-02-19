@@ -1,2 +1,3 @@
-public class Radio {
+public class Radio extends Component {
+
 }
