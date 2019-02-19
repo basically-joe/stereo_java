@@ -40,4 +40,15 @@ public class RadioTest {
 		assertEquals(false, radio.isPowerOnOff());
 	}
 
+	@Test
+	public void canGetChannel(){
+		assertEquals(null, radio.getChannel());
+	}
+
+	@Test
+	public void canSetChannel(){
+		radio.setChannel("Radio 1");
+		assertEquals("Radio 1", radio.getChannel());
+	}
+
 }
